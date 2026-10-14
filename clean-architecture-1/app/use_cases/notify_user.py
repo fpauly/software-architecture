@@ -1,5 +1,5 @@
 from .notification_service import NotificationService
-from ..C.user import User
+from ..entities.user import User
 
 def notify_user(notification_service: NotificationService, user: User):
     subject = "Welcome!"

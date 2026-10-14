@@ -1,6 +1,6 @@
-from app.D.smtp_notification_service import SMTPNotificationService
-from app.C.user import User
-from app.B.notify_user import notify_user
+from app.frameworks.smtp_notification_service import SMTPNotificationService
+from app.entities.user import User
+from app.use_cases.notify_user import notify_user
 
 def main():
 

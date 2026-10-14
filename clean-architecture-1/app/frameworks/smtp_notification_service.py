@@ -1,6 +1,6 @@
 import smtplib
 from email.message import EmailMessage
-from ..B.notification_service import NotificationService
+from ..use_cases.notification_service import NotificationService
 
 class SMTPNotificationService(NotificationService):
 
